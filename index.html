@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário a partir de JSON</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>Formulário a partir de JSON</h1>
+    </div>
+    <div class="jsonFileInputContent">
+      <label for="fileInput" class="custom-upload-button">
+        <span>Selecionar Arquivo JSON</span>
+        <input type="file" id="fileInput" accept=".json">
+      </label>
+    </div>
+    <form id="jsonForm">
+    </form>
+    <button id="saveButton" class="custom-save-button">Salvar</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
